@@ -403,11 +403,15 @@ button.btn-msg2 a{
 @media only screen and (max-width:1024px){
   .service-detail {
     gap: 20px;
+    grid-template-columns:repeat(1fr);
+    display: inline;
   }
   .service-detail-item img{
     width: 100%;
-    height: 130px;
   } 
+  .service-detail-item:hover{
+    transform: scale(0.9);
+}
 }
 .border-b{
   border-bottom: 2px solid rgb(71, 61, 44);
